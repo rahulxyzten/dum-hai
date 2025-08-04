@@ -1,36 +1,153 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a id="readme-top"></a>
 
-## Getting Started
+<h1 align="center">👊🏻 DumHai! - Online Quiz Platform 🧠</h3>
 
-First, run the development server:
+<div align="center">
+<img src="https://img.shields.io/badge/Repository%20Status-Active-dark%20green.svg" alt="repository_status">
+<img src="https://img.shields.io/badge/Website%20Status-Online-green" alt="website_status">
+<img src="https://img.shields.io/badge/Author-Rahul%20Behera-blue.svg" alt="author">
+<img src="https://img.shields.io/badge/Last%20Updated-5%20August%202025-yellow.svg" alt="last_updated">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+</div>
+<br />
+
+<p align='center'>
+  <img src = "https://github.com/user-attachments/assets/b5b4c8ec-b199-4dc4-94e7-c9a3d6e6dea3" width="700">
+<p>
+
+DumHai is an  online examination platform built with Next.js, MongoDB, and Tailwind CSS. This scalable application offers real-time quiz functionality, including automated scoring, progress tracking, and detailed performance analytics.
+
+**✨ Key Features:**
+
+- **Real-Time Quiz Experience:** 30-minute timed quizzes with auto-submission functionality.
+- **Dynamic Question Loading:** Fetches trivia questions from the OpenTDB API with HTML entity decoding.
+- **Progress Tracking:** Save and restore quiz progress with question marking and navigation.
+- **Comprehensive Results:** Detailed question-by-question analysis with color-coded feedback.
+- **User Management:** Email-based session management with MongoDB persistence.
+- **Responsive Design:** Optimized interface for both desktop and mobile devices.
+
+
+<br>
+<h3 align="center">🛠️ Built With</h3>
+<div align="center">
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+<img src="https://img.shields.io/badge/-Mongodb-black?style=for-the-badge&logoColor=white&logo=mongodb&color=47A248" alt="mongodb">
+<img src="https://img.shields.io/badge/Framer_Motion-FF4785?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion">
+</div>
+<br>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Getting Started
+
+Follow these steps to get a local copy of the project running.
+
+**Prerequisites**
+
+Make sure you have the following tools installed:
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+
+**Environment Variables**
+
+Create a `.env` file in the root of your project and add the following variables:
+
+```env
+MONGODB_URI=<your_mongodb_uri>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Replace `<your_mongodb_uri>` with your specific credentials.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**Installation**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/rahulxyzten/dum-hai.git
+   cd dum-hai
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
-## Learn More
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-To learn more about Next.js, take a look at the following resources:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Start Quiz:** Enter your email address on the homepage to begin
+- **Take Quiz:** Answer 15 trivia questions within the 30-minute time limit
+- **Navigate:** Use question numbers to jump between questions
+- **Mark Questions:** Flag questions for review using the mark feature
+- **Submit:** Complete and submit your quiz for detailed results
+- **View Results** Analyze your performance with comprehensive feedback
 
-## Deploy on Vercel
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🖼️ Screenshots
+
+<h3 align="center">Desktop View</h3>
+<br>
+<div align='center'>
+  <p align="center">
+    <img width="45%" src="https://github.com/user-attachments/assets/7165c192-295f-4561-9ddd-2f978d54727d">
+    <img width="45%"src="https://github.com/user-attachments/assets/136c193f-7d75-43c6-b6ce-d1fb1cdcf6ae">
+    <br/>
+    <br/>
+    <br/>
+    <img width="45%" src="https://github.com/user-attachments/assets/4b2a48f3-6da1-48c5-903c-1e7119cade86">
+    <img width="45%" src="https://github.com/user-attachments/assets/79560f83-e9fb-4342-ba98-05c190ed60d7">
+  </p>
+</div>
+ <br/>
+ <br/>
+
+<h3 align="center">Tablet View</h3>
+<br>
+<div align='center'>
+  <p align="center">
+    <img width="45%"src="https://github.com/user-attachments/assets/e338e523-3945-4a72-b329-ed4e34a2abfb">
+    <img width="45%"src="https://github.com/user-attachments/assets/37f21557-c14e-4fdd-9256-cd815b8056d4">
+    <br/>
+    <br/>
+    <br/>
+    <img width="45%"src="https://github.com/user-attachments/assets/a0b93708-f18c-4264-b936-6363fe6ff5c6">
+    <img width="45%"src="https://github.com/user-attachments/assets/7fdd267f-c505-4c8b-bdf3-3250aff0c3f0">
+  </p>
+</div>
+ <br/>
+ <br/>
+
+ <h3 align="center">Mobile View</h3>
+<br>
+<div align='center'>
+  <p align="center">
+    <img width="45%" height="70%" src="https://github.com/user-attachments/assets/f0490f10-5d1d-420c-987b-465735b307df">
+    <img width="45%" height="70%" src="https://github.com/user-attachments/assets/0c9c89f5-83a7-4ddf-89b2-74d2b9b4f66c">
+    <br/>
+    <br/>
+    <br/>
+    <img width="45% "height="70%" src="https://github.com/user-attachments/assets/63aa35ce-440c-43be-a18f-2423bc847e11">
+    <img width="45%" height="70%" src="https://github.com/user-attachments/assets/304dad5e-baf1-4bd4-8821-b28d7d9d5479">
+  </p>
+</div>
+ <br/>
+ <br/>
+
+ 
+<p align="center">
+  <a href="#">
+    <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love">
+  </a>
+</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
