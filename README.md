@@ -81,6 +81,43 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🏗️ Project Structure
+
+```bash
+dum-hai/
+├── app/
+│   ├── api/
+│   │   ├── questions/
+│   │   │   └── route.js          # User/session creation & store quiz questions
+│   │   ├── quiz/
+│   │   │   └── route.js          # Quiz management and navigation API
+│   │   └── session/
+│   │       └── [id]/
+│   │           └── route.js      # Session-specific data retrieval
+│   ├── quiz/
+│   │   └── page.js               # Main quiz interface page
+│   ├── report/
+│   │   └── page.js               # Results and performance analytics page
+│   ├── favicon.ico               # Site favicon
+│   ├── globals.css               # Global CSS styles and Tailwind imports
+│   ├── layout.js                 # Root application layout wrapper
+│   └── page.js                   # Homepage with email input and quiz start
+├── components/
+│   ├── Header.js                 # Navigation header component
+│   ├── LoadingSpinner.js         # Reusable loading indicator component
+│   ├── ProgressIndicators.js     # Quiz progress visualization component
+│   ├── Question.js               # Individual question display component
+│   ├── QuestionNavigation.js     # Question number navigation grid
+│   └── Timer.js                  # Countdown timer component
+├── lib/
+│   ├── models/
+│   │   ├── QuizSession.js        # Mongoose schema for quiz sessions
+│   │   └── User.js               # Mongoose schema for user data
+│   └── mongodb.js                # Database connection configuration
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 📝 Usage
 
 - **Start Quiz:** Enter your email address on the homepage to begin
